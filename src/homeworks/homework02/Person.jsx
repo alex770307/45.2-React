@@ -1,5 +1,6 @@
-import './App.css';
-import ProfileCard from './components/ProfileCard';
+import ProfileCard from '../../components/profileCard/ProfileCard';
+// import './App.css';
+
 
 function Person() {
     const profiles = [

@@ -1,3 +1,3 @@
-export default function MyButton() {
-    return <button>Click me!</button>
+export default function MyButton({func, text}) {
+    return <button onClick={func}>{text}</button>
 }
