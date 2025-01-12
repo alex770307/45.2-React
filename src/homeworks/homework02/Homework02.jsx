@@ -1,10 +1,9 @@
-// import './App.css';
-// import Person from './Person';
+import Person from "../../Person";
 
-// function Homework02() {
-//     return (
-//         <Person/>
-//     );
-// }
+function Homework02() {
+    return (
+       <Person/>
+    );
+}
 
-// export default Homework02
+export default Homework02
