@@ -7,7 +7,7 @@ import viteLogo from '/vite.svg';
 
 
 function Lesson01() {
-      const [count, setCount] = useState(0);
+  const [count, setCount] = useState(0);
   const [timer, setTimer] = useState(0);
   const [isRunning, setIsRunning] = useState(false);
 
@@ -27,36 +27,36 @@ function Lesson01() {
     setCount((count) => count + 1);
     setIsRunning(true);
   };
-    return (
-        <>
-            <div>
-                   <a href="https://vite.dev" target="_blank" rel="noopener noreferrer">
-                     <img src={viteLogo} className="logo" alt="Vite logo" />
-                   </a>
-                   <a href="https://react.dev" target="_blank" rel="noopener noreferrer">
-                     <img src={reactLogo} className="logo react" alt="React logo" />
-                   </a>
-                 </div>
-                 <h2>Vite + React</h2>
-                 <h2>Lesson 001</h2>
-                 <h3>Date 08.01.2025</h3>
-                 <h4>Introduction in React</h4>
-           
-                 <div className="card">
-                   <button onClick={handleClick}>
-                     count is {count}
-                   </button>
-                   {/* <p>Time elapsed: {timer} seconds</p> */}
-                   <h3>Time elapsed: {timer} seconds</h3>
-                   <p>
-                     Edit <code>src/App.jsx</code> and save to test HMR
-                   </p>
-                 </div>
-                 <p className="read-the-docs">
-                   Click on the Vite and React logos to learn more
-                 </p> 
-       </> 
-    )
+  return (
+    <>
+      <div>
+        <a href="https://vite.dev" target="_blank" rel="noopener noreferrer">
+          <img src={viteLogo} className="logo" alt="Vite logo" />
+        </a>
+        <a href="https://react.dev" target="_blank" rel="noopener noreferrer">
+          <img src={reactLogo} className="logo react" alt="React logo" />
+        </a>
+      </div>
+      <h2>Vite + React</h2>
+      <h2>Lesson 001</h2>
+      <h3>Date 08.01.2025</h3>
+      <h4>Introduction in React</h4>
+
+      <div className="card">
+        <button onClick={handleClick}>
+          count is {count}
+        </button>
+        {/* <p>Time elapsed: {timer} seconds</p> */}
+        <h3>Time elapsed: {timer} seconds</h3>
+        <p>
+          Edit <code>src/App.jsx</code> and save to test HMR
+        </p>
+      </div>
+      <p className="read-the-docs">
+        Click on the Vite and React logos to learn more
+      </p>
+    </>
+  )
 }
 
 
