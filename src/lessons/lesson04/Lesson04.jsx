@@ -35,14 +35,14 @@ function Lesson04() {
     const [color, setColor] = useState("transparent");
 
     const handleColorChange = () => {
-        setColor(prev => prev);
+        setColor("Black");
     };
 
 
     return (
         // в последней трети - после return мы показываем верстку и отображаем данные в тегах
         <div>
-            <h4>Lesson04:</h4>
+            <h4>Lesson04</h4>
             <h2>UseState() hook 🪝</h2>
             <p>Чтобы при изменении переменной,
                 как в примере ниже мы видели результат

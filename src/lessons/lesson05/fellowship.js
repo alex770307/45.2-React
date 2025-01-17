@@ -11,7 +11,7 @@ export const fellowship = [
       age: 1500,
       weapons: ['palantir'],
       isDark: true,
-      image: 'https://img.netzwelt.de/dw1200_dh900_sw1920_sh1440_sx640_sy0_sr4x3_nu2/picture/original/2022/09/herr-ringe-saruman-348842.png'
+      image: 'https://cdn.moviepilot.de/files/e6896f91a681c1ccebcb79d42720c068f4957c1964bbd8dc4a764b89a84a/fill/1200/576/saruman-christopher-lee.jpg'
     },
     {
       name: 'Frodo',
