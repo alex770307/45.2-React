@@ -1,10 +1,11 @@
 import { fellowship } from './fellowship';
 import './lesson05.css';
-
+console.log(fellowship)
 function Lesson05() {
   // console.log(fellowship);
   fellowship.map((el, num) => {
-    console.log(el.name + " - под номером " + (num + 1))
+
+    console.log(el.name + " - под номером " + (num + 1) + " c id " + el.id)
   }
 
   )
@@ -13,9 +14,9 @@ function Lesson05() {
       <h4>Lesson05:</h4>
       <h2>React map() components 🧝‍♀️</h2>
       <div className="container">
-        {fellowship.map((hero, index) => (
+        {fellowship.map((hero) => (
           // key - это уникальное значение которое просит передать react в итерируемую верстку для того чтобы не ошибиться в отрисовки при сложных операциях (сортировка / удаление)
-            <div className={`heroCard ${hero.isDark ? 'dark' : 'light'}`} key={index}>
+          <div className={`heroCard ${hero.isDark ? 'dark' : 'light'}`} key={hero.id}>
             <p>Hero: {hero.name}</p>
             <img src={hero.image} height={150} alt="" />
             <p>{hero.isDark ? 'Villain 🔥' : 'Hero ✨'}</p>

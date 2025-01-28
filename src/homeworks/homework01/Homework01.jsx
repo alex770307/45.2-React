@@ -5,7 +5,9 @@ import avatar from '../../images/avatar.jpg';
 const Homework01 = () => {
   return (
     <>
+    <h4>Homework 01</h4>
     <div className="profile-card">
+      
       <img
         src={avatar}
         alt="Profile Avatar"

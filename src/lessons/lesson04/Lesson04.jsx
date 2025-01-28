@@ -34,8 +34,8 @@ function Lesson04() {
 
     const [color, setColor] = useState("transparent");
 
-    const handleColorChange = () => {
-        setColor("Black");
+    const handleColorChange = (newColor) => {
+        setColor(newColor);
     };
 
 

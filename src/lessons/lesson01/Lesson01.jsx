@@ -29,6 +29,7 @@ function Lesson01() {
   };
   return (
     <>
+    <h4>Lesson 01</h4>
       <div>
         <a href="https://vite.dev" target="_blank" rel="noopener noreferrer">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -46,7 +47,6 @@ function Lesson01() {
         <button onClick={handleClick}>
           count is {count}
         </button>
-        {/* <p>Time elapsed: {timer} seconds</p> */}
         <h3>Time elapsed: {timer} seconds</h3>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
